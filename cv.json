@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Marcelo Mazar",
+    "label": "Full Stack Developer con mas de 15 años de experiencia",
+    "image": "https://avatars.githubusercontent.com/u/1487242?v=4",
+    "email": "marcelo.mazar.dev@gmail.com",
+    "phone": "(2326) 41-0265",
+    "url": "https://marcelomazar.com.ar",
+    "summary": "+15 años de experiencia como Desarrollador Web. Vivo en Argentina",
+    "location": {
+      "address": "",
+      "postalCode": "2760",
+      "city": "San Antonio de Areco",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "username": "marcelomazar",
+        "url": "https://x.com/marcelomazar"
+      },
+      {
+        "network": "GitHub",
+        "username": "machix",
+        "url": "https://github.com/machix"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "marcelomazar",
+        "url": "https://linkedin.com/in/marcelomazar"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Municipalidad de San Antonio de Areco",
+      "position": "Coordinador de Base de Datos",
+      "url": "https://areco.gob.ar",
+      "startDate": "2014-08-01",
+
+      "summary": "coordinador de base de datos e ingenieria de proyectos, a cargo del macro sistema RAFAM.",
+      "highlights": [
+        "Design and implemented the database system for the municipality of San Antonio de Areco"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "React",
+      "level": "Master",
+      "keywords": ["React, Nextjs, Astro"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
