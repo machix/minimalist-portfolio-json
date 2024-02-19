@@ -32,10 +32,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         <WorldMap />
         {city},{region}
       </span>
-      <footer>
-        <div class="print">
-          {printInfo}
-        </div>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -128,6 +128,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   }
 
   footer {
+    color: #555;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -151,6 +153,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     border: 1px solid #ddd;
   }
 
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
+
   .print {
     display: none;
   }
@@ -158,5 +166,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   @media print {
     .print {
       display: block;
+    }
   }
 </style>
